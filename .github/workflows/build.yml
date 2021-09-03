@@ -30,5 +30,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
-          #        ldflags: -s -w -X internal.branch=${{ env.RELEASE_VERSION }}
-        build_flags: ./cmd/...
+        build_command: build.sh
