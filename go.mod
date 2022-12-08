@@ -18,15 +18,15 @@ require (
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/juju/testing v0.0.0-20210324180055-18c50b0c2098 // indirect
 	github.com/lib/pq v1.10.1
-	github.com/libp2p/go-libp2p v0.13.0
-	github.com/libp2p/go-libp2p-circuit v0.4.0
-	github.com/libp2p/go-libp2p-core v0.8.3
+	github.com/libp2p/go-libp2p v0.18.0
+	github.com/libp2p/go-libp2p-circuit v0.6.0
+	github.com/libp2p/go-libp2p-core v0.14.0
 	github.com/libp2p/go-libp2p-gostream v0.3.1
 	github.com/libp2p/go-libp2p-http v0.2.0
 	github.com/libp2p/go-libp2p-kad-dht v0.11.1
 	github.com/libp2p/go-libp2p-pubsub v0.4.1
 	github.com/libp2p/go-libp2p-record v0.1.3
-	github.com/lucas-clemente/quic-go v0.22.0
+	github.com/lucas-clemente/quic-go v0.25.0
 	github.com/matrix-org/dugong v0.0.0-20210603171012-8379174dca81
 	github.com/matrix-org/go-http-js-libp2p v0.0.0-20200518170932-783164aeeda4
 	github.com/matrix-org/go-sqlite3-js v0.0.0-20210709140738-b0d1ba599a6d
@@ -53,10 +53,9 @@ require (
 	github.com/uber/jaeger-lib v2.4.1+incompatible
 	github.com/yggdrasil-network/yggdrasil-go v0.4.1-0.20210715083903-52309d094c00
 	go.uber.org/atomic v1.9.0
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
+	golang.org/x/crypto v0.0.0-20210813211128-0a44fdfbc16e
 	golang.org/x/mobile v0.0.0-20210716004757-34ab1303b554
-	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/net v0.0.0-20210813160813-60bc85c4be6d
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
 	gopkg.in/h2non/bimg.v1 v1.1.5
 	gopkg.in/yaml.v2 v2.4.0
